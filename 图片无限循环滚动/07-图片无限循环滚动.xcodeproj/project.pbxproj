@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F63B28D31D7701A40069D736 /* Object.m in Sources */ = {isa = PBXBuildFile; fileRef = F63B28D21D7701A40069D736 /* Object.m */; };
 		F98281EF1D2FFDF400A244A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F98281EE1D2FFDF400A244A0 /* main.m */; };
 		F98281F21D2FFDF400A244A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F98281F11D2FFDF400A244A0 /* AppDelegate.m */; };
 		F98281F51D2FFDF400A244A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98281F41D2FFDF400A244A0 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F63B28D11D7701A40069D736 /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		F63B28D21D7701A40069D736 /* Object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Object.m; sourceTree = "<group>"; };
 		F98281EA1D2FFDF400A244A0 /* 07-图片无限循环滚动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "07-图片无限循环滚动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98281EE1D2FFDF400A244A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F98281F01D2FFDF400A244A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				F98281FB1D2FFDF500A244A0 /* LaunchScreen.storyboard */,
 				F98281FE1D2FFDF500A244A0 /* Info.plist */,
 				F98281ED1D2FFDF400A244A0 /* Supporting Files */,
+				F63B28D11D7701A40069D736 /* Object.h */,
+				F63B28D21D7701A40069D736 /* Object.m */,
 			);
 			path = "07-图片无限循环滚动";
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 				F98281F51D2FFDF400A244A0 /* ViewController.m in Sources */,
 				F98281F21D2FFDF400A244A0 /* AppDelegate.m in Sources */,
 				F98282221D30005700A244A0 /* UIView+Extension.m in Sources */,
+				F63B28D31D7701A40069D736 /* Object.m in Sources */,
 				F98281EF1D2FFDF400A244A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
