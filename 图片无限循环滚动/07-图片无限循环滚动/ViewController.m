@@ -36,7 +36,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     self.view.width = KSCREEN_WIDTH, self.view.height = KSCREEN_HEIGHT;
     
     
@@ -156,7 +155,6 @@
     return _images;
 }
 
-// pageController
 - (UIPageControl *)pageControl
 {
     if (!_pageControl) {
@@ -174,7 +172,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
