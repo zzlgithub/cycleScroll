@@ -9,9 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-/**
- *  图片无限循环
- */
 
 @end
 
